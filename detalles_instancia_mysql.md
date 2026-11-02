@@ -29,18 +29,11 @@ Configuración del puerto 3306 y ajustes de seguridad para permitir conexiones p
 <img width="944" height="726" alt="Captura de pantalla 2026-11-01 233953" src="https://github.com/user-attachments/assets/416f9b4b-1fd6-4450-a5df-0c077a389586" />
 
 
-
-
-
-
-
-
-## Paso 3: Creación de usuarios y asignación de privilegios
-Comandos ejecutados o configuración en panel para la creación del usuario de base de datos y la concesión de permisos.
-![Configuración de Usuarios](./img/mysql/[nombre_imagen_3.png])
-
-## Paso 4: Configuración del cliente SQL
+## Paso 3: Configuración del cliente SQL
 Introducción de las credenciales, host (Endpoint/IP) y puerto en la herramienta cliente local (ej. MySQL Workbench, DBeaver).
+
+<img width="1418" height="821" alt="Captura de pantalla 2026-11-01 232429" src="https://github.com/user-attachments/assets/e8dd2f34-2e3e-4bdc-9d72-132302ea2d7a" />
+
 
 
 
@@ -49,15 +42,18 @@ Introducción de las credenciales, host (Endpoint/IP) y puerto en la herramienta
 
 <img width="699" height="799" alt="Captura de pantalla 2026-11-01 234530" src="https://github.com/user-attachments/assets/31d38ed5-df48-4188-b119-47626cea6097" />
 
-## Paso 5: Prueba de conexión exitosa
+## Paso 4: Prueba de conexión exitosa
 Evidencia final de la conexión a la base de datos, mostrando la estructura vacía o una consulta simple (`SHOW DATABASES;`).
 <img width="1151" height="805" alt="Captura de pantalla 2026-11-01 234648" src="https://github.com/user-attachments/assets/8b4b5e89-1e2c-4801-ad7f-0249c5e9e15d" />
 
 <img width="686" height="793" alt="Captura de pantalla 2026-11-01 234559" src="https://github.com/user-attachments/assets/4b337636-8f3c-4166-8e39-59fe6f7b1f31" />
 
-## Paso 6: Deteniendo la base de datos (porque ya no se va a usar)
+## Paso 5: Deteniendo la base de datos (porque ya no se va a usar)
 
 <img width="1910" height="484" alt="Captura de pantalla 2026-11-01 234930" src="https://github.com/user-attachments/assets/3398cf9f-4e0a-4be2-bcf9-242e93fb9280" />
+
+<img width="1914" height="529" alt="Captura de pantalla 2026-11-02 000555" src="https://github.com/user-attachments/assets/4b68c9e7-f01a-4345-a822-b9022fff05a7" />
+
 
 
 
