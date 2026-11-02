@@ -62,5 +62,9 @@ Este documento contiene las evidencias gráficas paso a paso sobre la creación,
 <img width="945" height="251" alt="Captura de pantalla 2026-11-01 225348" src="https://github.com/user-attachments/assets/07c7cf52-785c-40e8-a990-569a3ee27e5b" />
 
 ## 6. Aplicación desplegada y accesible por internet
+
+<img width="502" height="87" alt="Captura de pantalla 2026-11-01 221350" src="https://github.com/user-attachments/assets/25e626f0-a2a5-4c64-b837-26df0e86dd96" />
+
+
 <img width="950" height="1026" alt="Captura de pantalla 2026-11-01 223843" src="https://github.com/user-attachments/assets/a96604e8-1229-4851-abfc-de8e436afb71" />
 
