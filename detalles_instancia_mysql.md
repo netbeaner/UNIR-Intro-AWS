@@ -20,32 +20,36 @@ Proceso de despliegue del servicio de base de datos MySQL (ya sea mediante RDS u
 Configuración del puerto 3306 y ajustes de seguridad para permitir conexiones públicas o desde IPs específicas.
 <img width="1671" height="448" alt="Captura de pantalla 2026-11-01 232711" src="https://github.com/user-attachments/assets/b677f781-17a9-49fb-a7f5-35bed67b5dc5" />
 
+Configuración de Security Group
 <img width="1682" height="548" alt="Captura de pantalla 2026-11-01 232720" src="https://github.com/user-attachments/assets/3f89aaf8-0549-44bb-80f3-f1094084b7b6" />
 
 <img width="1682" height="659" alt="Captura de pantalla 2026-11-01 233721" src="https://github.com/user-attachments/assets/3430634f-0114-4cd4-9308-22a2615ca736" />
 
+Se concede Acceso Público a la instancia
 <img width="937" height="873" alt="Captura de pantalla 2026-11-01 233934" src="https://github.com/user-attachments/assets/1b6dfb8e-6688-4500-a20a-ddd3e64b8065" />
 
+Se persisten los cambios
 <img width="944" height="726" alt="Captura de pantalla 2026-11-01 233953" src="https://github.com/user-attachments/assets/416f9b4b-1fd6-4450-a5df-0c077a389586" />
 
 
 ## Paso 3: Configuración del cliente SQL
-Introducción de las credenciales, host (Endpoint/IP) y puerto en la herramienta cliente local (ej. MySQL Workbench, DBeaver).
+Introducción de las credenciales, host (Endpoint/IP) y puerto en la herramienta cliente local (DBeaver).
 
 <img width="1418" height="821" alt="Captura de pantalla 2026-11-01 232429" src="https://github.com/user-attachments/assets/e8dd2f34-2e3e-4bdc-9d72-132302ea2d7a" />
 
 
-
+Se modifica la propiedad allowPublicKeyRetrieval a true
 
 <img width="683" height="796" alt="Captura de pantalla 2026-11-01 234519" src="https://github.com/user-attachments/assets/07e6336c-94f7-4ad7-999a-858a0473a167" />
 
-
+Cambio efectuado correctamente
 <img width="699" height="799" alt="Captura de pantalla 2026-11-01 234530" src="https://github.com/user-attachments/assets/31d38ed5-df48-4188-b119-47626cea6097" />
 
 ## Paso 4: Prueba de conexión exitosa
-Evidencia final de la conexión a la base de datos, mostrando la estructura vacía o una consulta simple (`SHOW DATABASES;`).
+Evidencia final de la conexión a la base de datos, mostrando la estructura vacía o una consulta simple
 <img width="1151" height="805" alt="Captura de pantalla 2026-11-01 234648" src="https://github.com/user-attachments/assets/8b4b5e89-1e2c-4801-ad7f-0249c5e9e15d" />
 
+Conexión exitosa a MySQL desde cliente DBeaver
 <img width="686" height="793" alt="Captura de pantalla 2026-11-01 234559" src="https://github.com/user-attachments/assets/4b337636-8f3c-4166-8e39-59fe6f7b1f31" />
 
 ## Paso 5: Deteniendo la base de datos (porque ya no se va a usar)
