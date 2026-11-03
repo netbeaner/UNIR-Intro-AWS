@@ -43,6 +43,8 @@ Se modifica la propiedad allowPublicKeyRetrieval a true
 <img width="683" height="796" alt="Captura de pantalla 2026-11-01 234519" src="https://github.com/user-attachments/assets/07e6336c-94f7-4ad7-999a-858a0473a167" />
 
 Cambio efectuado correctamente
+
+
 <img width="699" height="799" alt="Captura de pantalla 2026-11-01 234530" src="https://github.com/user-attachments/assets/31d38ed5-df48-4188-b119-47626cea6097" />
 
 ## Paso 4: Prueba de conexión exitosa
